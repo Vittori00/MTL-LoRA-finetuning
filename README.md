@@ -47,7 +47,3 @@ This project aims to develop a medical assistant by fine-tuning the 1-billion-pa
 ## Contributions
 
 Contributions and suggestions are welcome! Please fork the repository and submit a pull request with your improvements or fixes.
-
----
-
-Fammi sapere se vuoi che adatti il tono (ad es. più formale o più tecnico), o se desideri anche i badge per GitHub (Python version, license, ecc.).
