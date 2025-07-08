@@ -1,47 +1,53 @@
 # MTL-LoRA-Finetuning
 
-## Descrizione
+## Description
 
-Questo progetto mira a sviluppare un assistente medico attraverso il fine-tuning del modello LLaMA da 1 miliardo di parametri utilizzando le tecniche LoRA e MTL-LoRA. Il progetto è suddiviso in due fasi principali:
+This project aims to develop a medical assistant by fine-tuning the 1-billion-parameter LLaMA model using **LoRA** and **MTL-LoRA** techniques. The project is divided into two main phases:
 
-1. **Fine-Tuning con il Dataset PubMedQA:** Migliorare la comprensione lessicale e semantica del modello nel dominio medico utilizzando il dataset PubMedQA, che include domande mediche, contesto e risposte.
+1. **Fine-Tuning with the PubMedQA Dataset:** Enhance the model's lexical and semantic understanding in the medical domain using the PubMedQA dataset, which includes medical questions, context, and answers.
 
-2. **Confronto delle Tecniche di Fine-Tuning:** Valutare le prestazioni del modello base, del modello ottimizzato con LoRA e del modello ottimizzato con MTL-LoRA utilizzando metriche come Perplexity e BLEU.
+2. **Comparison of Fine-Tuning Techniques:** Evaluate the performance of the base model, the LoRA-optimized model, and the MTL-LoRA-optimized model using metrics such as **Perplexity** and **BLEU**.
 
-## Struttura del Progetto
+## Project Structure
 
-- **LM Project.ipynb:** Notebook Jupyter contenente il codice per il fine-tuning del modello e le valutazioni delle prestazioni.
-- **README.md:** File che fornisce una panoramica del progetto e delle istruzioni per l'uso.
+* **LM Project.ipynb:** Jupyter notebook containing the code for model fine-tuning and performance evaluation.
+* **README.md:** File providing an overview of the project and usage instructions.
 
-## Prerequisiti
+## Prerequisites
 
-- Python 3.x
-- Librerie Python elencate in `requirements.txt`
+* Python 3.x
+* Python libraries listed in `requirements.txt`
 
-## Installazione
+## Installation
 
-1. **Clonare il Repository:**
+1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/Vittori00/MTL-LoRA-finetuning.git
    cd MTL-LoRA-finetuning
    ```
 
-2. **Installare le Dipendenze:**
+2. **Install Dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
 
-## Utilizzo
+## Usage
 
-1. **Preparare il Dataset:**
-   Assicurarsi che il dataset PubMedQA sia nel formato appropriato e posizionato nella directory designata.
+1. **Prepare the Dataset:**
+   Make sure the PubMedQA dataset is in the correct format and placed in the designated directory.
 
-2. **Eseguire il Fine-Tuning:**
-   Aprire ed eseguire il notebook `LM Project.ipynb` per effettuare il fine-tuning del modello utilizzando le tecniche LoRA e MTL-LoRA.
+2. **Run Fine-Tuning:**
+   Open and run the `LM Project.ipynb` notebook to fine-tune the model using the LoRA and MTL-LoRA techniques.
 
-3. **Valutare le Prestazioni:**
-   Utilizzare il notebook per confrontare le prestazioni del modello base, del modello ottimizzato con LoRA e del modello ottimizzato con MTL-LoRA.
+3. **Evaluate Performance:**
+   Use the notebook to compare the performance of the base model, the LoRA-optimized model, and the MTL-LoRA-optimized model.
 
-## Contributi
+## Contributions
 
-Contributi e suggerimenti sono benvenuti! Si prega di fare un fork del repository e inviare una pull request con le proprie modifiche o correzioni.
+Contributions and suggestions are welcome! Please fork the repository and submit a pull request with your improvements or fixes.
+
+---
+
+Fammi sapere se vuoi che adatti il tono (ad es. più formale o più tecnico), o se desideri anche i badge per GitHub (Python version, license, ecc.).
